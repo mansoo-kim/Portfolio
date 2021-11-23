@@ -3784,12 +3784,18 @@ input, select, textarea {
 
 		}
 
+.projects-list {
+	list-style: none;
+}
+.projects-list > li {
+	display: flex;
+}
+
 .my-image {
 	display: inline-block;
-	margin-left: 4em;
 	padding: 0.65em;
-	/* border-radius: 100%; */
 	border: solid 1px;
+	border-radius: 8px;
 	border-color: #dddddd;
 }
 .my-image > img {
