@@ -3789,6 +3789,10 @@ input, select, textarea {
 }
 .projects-list > li {
 	display: flex;
+	margin-bottom: 40px;
+}
+.projects-list > li > div {
+	margin-left: 20px;
 }
 
 .my-image {
@@ -3800,5 +3804,5 @@ input, select, textarea {
 }
 .my-image > img {
 	display: block;
-	width: 14em;
+	width: 30em;
 }
