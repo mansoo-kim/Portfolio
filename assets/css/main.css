@@ -3831,3 +3831,7 @@ input, select, textarea {
 		order: 1;
 	}
 }
+
+#footer {
+	margin-left: 0;
+}
