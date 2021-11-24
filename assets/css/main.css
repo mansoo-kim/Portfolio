@@ -3846,3 +3846,27 @@ input, select, textarea {
 .contact-me .fa-envelope {
 	vertical-align: middle;
 }
+
+.skills-list {
+	list-style: none;
+	margin-bottom: 2em;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.skills-list > li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 1em;
+}
+.skills-list i {
+	font-size: 100px;
+	margin-bottom: 0.5rem;
+}
+.skills-list img {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 0.5rem;
+}
