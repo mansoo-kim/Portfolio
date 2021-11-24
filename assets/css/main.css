@@ -3835,3 +3835,8 @@ input, select, textarea {
 #footer {
 	margin-left: 0;
 }
+#html5up-link {
+	padding-left: 1em;
+	margin-left: 1em;
+	border-left: 1px solid rgba(255, 255, 255, 0.65);
+}
