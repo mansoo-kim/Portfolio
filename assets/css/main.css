@@ -3795,7 +3795,7 @@ input, select, textarea {
 	margin-bottom: 40px;
 }
 .projects-list > li > div {
-	margin-left: 30px;
+	margin: 0px 1em;
 }
 .projects-list h3 {
 	margin: 0.5em 0px;
@@ -3805,6 +3805,10 @@ input, select, textarea {
 }
 .project-links > a:first-child {
 	margin-right: 1em;
+}
+
+.right-image {
+	order: -1;
 }
 
 .my-image {
@@ -3822,5 +3826,8 @@ input, select, textarea {
 @media screen and (min-width: 980px) {
 	.projects-list > li {
 		flex-direction: row;
+	}
+	.right-image {
+		order: 1;
 	}
 }
