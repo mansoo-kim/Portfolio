@@ -3840,3 +3840,13 @@ input, select, textarea {
 	margin-left: 1em;
 	border-left: 1px solid rgba(255, 255, 255, 0.65);
 }
+
+.contact-me > p {
+	margin: 1em;
+}
+.contact-me i {
+	margin-right: 1em;
+}
+.contact-me .fa-envelope {
+	vertical-align: middle;
+}
