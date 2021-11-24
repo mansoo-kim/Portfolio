@@ -3729,11 +3729,6 @@ input, select, textarea {
 					margin-left: 0;
 					margin-bottom: 3em;
 				}
-
-				#footer .copyright {
-					text-align: left;
-				}
-
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3834,6 +3829,7 @@ input, select, textarea {
 
 #footer {
 	margin-left: 0;
+	width: 100%;
 }
 #html5up-link {
 	padding-left: 1em;
